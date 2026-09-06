@@ -1,0 +1,723 @@
+.hero {
+    padding: 20px 0 40px;
+    min-height: 520px;
+    background: #f8f9f5;
+}
+
+.hero .row {
+    transform: translateY(-70px);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #064e3b;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    max-height: 450px;
+    width: 100%;
+    object-fit: contain;
+}.hero {
+    padding: 20px 0 40px;
+    min-height: 520px;
+    background: #f8f9f5;
+}
+
+.hero .row {
+    transform: translateY(-200px);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #064e3b;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    max-height: 450px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #064e3b;
+    line-height: 1.3;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #222;
+    margin: 20px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.hero-buttons .btn {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero-images {
+    position: relative;
+    min-height: 360px;
+    transform: translateY(-40px);
+}
+
+.main-farm-image {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.crop-image {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.tomato {
+    left: 30px;
+    bottom: 10px;
+}
+
+.wheat {
+    right: 20px;
+    bottom: 0;
+}
+.hero {
+    padding: 20px 0;
+    min-height: 430px;
+    background: #f8f9f5;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #064e3b;
+    line-height: 1.4;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.hero-image {
+    max-height: 450px;
+    object-fit: contain;
+}
+/* Popular Crops */
+.crops-section {
+    background: #ffffff;
+}
+
+.section-title {
+    color: #087443;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.crop-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.crop-card:hover {
+    transform: translateY(-5px);
+}
+
+.crop-card img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+    display: block;
+}
+
+.crop-name {
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+.crop-name span {
+    margin-right: 8px;
+}
+/* Why Crop Advisor */
+.why-section {
+    background: #f8f9f7;
+    padding: 60px 0;
+}
+
+.why-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 35px 25px;
+    min-height: 230px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+}
+
+.why-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.why-card h3 {
+    color: #087443;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.why-card p {
+    color: #555;
+    line-height: 1.8;
+    margin: 0;
+}
+/* Diseases Section */
+.diseases-section {
+    background: #ffffff;
+    padding: 60px 0;
+}
+
+.disease-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 30px 25px;
+    text-align: center;
+    min-height: 300px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.disease-card:hover {
+    transform: translateY(-5px);
+}
+
+.disease-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.disease-card h3 {
+    color: #087443;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.disease-card p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.disease-btn {
+    display: inline-block;
+    background: #087443;
+    color: white;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.disease-btn:hover {
+    background: #065c35;
+    color: white;
+}
+/* About Page */
+
+.about-section {
+    background: #ffffff;
+    min-height: 550px;
+}
+
+.about-section h2 {
+    color: #087443;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #555;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.about-card {
+    background: #f8f9f7;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.about-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-item:last-child {
+    border-bottom: none;
+}
+
+.about-icon {
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.about-item h3 {
+    color: #087443;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.about-item p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.mission-section {
+    background: #f8f9f7;
+}
+
+.mission-text {
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
+    color: #555;
+    line-height: 2;
+}
+/* Contact Page */
+
+.contact-section {
+    background: #f8f9f7;
+    min-height: 600px;
+}
+
+.contact-intro {
+    color: #666;
+    font-size: 18px;
+}
+
+.contact-info {
+    background: #087443;
+    color: white;
+    padding: 35px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-info > p {
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact-item span {
+    font-size: 25px;
+}
+
+.contact-item p {
+    margin: 5px 0 0;
+}
+
+.contact-form {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+.contact-form .form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.contact-submit {
+    padding: 12px 35px;
+    font-weight: bold;
+}
+.footer {
+    background: #064e3b;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer h3 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #d9eee5;
+    line-height: 1.8;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #d9eee5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+    padding-right: 5px;
+}
+
+.footer hr {
+    border-color: rgba(255,255,255,0.2);
+    margin: 30px 0 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 45px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 150px;
+    width: auto;
+}
+
+.footer .col-md-4:first-child {
+    text-align: center;
+}
+
+
+.footer-logo img {
+    height: 45px;
+    width: auto;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+.crops-page {
+    background: #f8f9f7;
+    min-height: 600px;
+}
+
+.crop-description {
+    text-align: center;
+    color: #666;
+    line-height: 1.7;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+.control-page {
+    background: #f8f9f7;
+    min-height: 600px;
+}
+
+.control-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 30px 25px;
+    text-align: center;
+    min-height: 270px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.control-card:hover {
+    transform: translateY(-5px);
+}
+
+.control-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.control-card h3 {
+    color: #087443;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.control-card p {
+    color: #555;
+    line-height: 1.8;
+    margin: 0;
+}
+/* معلومات عن أهمية الزراعة */
+.agriculture-info {
+    background: #f8f9f7;
+}
+
+.info-intro {
+    max-width: 850px;
+    margin: auto;
+    color: #555;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.info-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 25px;
+    min-height: 270px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 3px 10px rgba(0,0,0,.06);
+    transition: .3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.info-card h3 {
+    color: #087443;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    color: #555;
+    line-height: 1.9;
+    margin: 0;
+}
+
+
+/* كيف يساعدك Crop Advisor */
+.advisor-info {
+    background: #fff;
+}
+
+.advisor-text {
+    max-width: 900px;
+    margin: auto;
+    color: #555;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.advisor-box {
+    background: #f8f9f7;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    border-right: 4px solid #087443;
+}
+
+.advisor-box h3 {
+    color: #087443;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.advisor-box p {
+    color: #555;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* النصائح الزراعية */
+.tips-section {
+    background: #f8f9f7;
+}
+
+.tips-list {
+    max-width: 900px;
+    margin: auto;
+}
+
+.tip-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.tip-item span {
+    min-width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #087443;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.tip-item p {
+    margin: 0;
+    color: #333;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.tip-item span {
+    min-width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #087443;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-brand img {
+    height: 150px !important;
+    width: auto !important;
+    object-fit: contain;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-text {
+    max-width: 800px;
+    margin: 15px auto 0;
+    line-height: 2;
+}
+.footer-logo {
+    font-size: 908px;
+}
